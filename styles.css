@@ -1,0 +1,145 @@
+/* Reset all elements */
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/* Body element */
+body {
+    font-family: 'Tahoma', sans-serif;
+    font-size: 1.3rem;
+    text-align: center;
+    color: #333;
+    margin: 0;
+    display: block;
+}
+
+/* Main section  */
+
+#main {
+    margin: 20px 10px;
+    padding: 15px;
+    background-color: #eee;
+    border-radius: 10px;
+}
+
+#title {
+    padding: 11px;
+}
+
+#sub-title {
+    font-size: 1rem;
+    padding-bottom: 60px;
+}
+
+/* Image Section  */
+
+#img-div {
+    background-color: white;
+    padding: 10px;
+    margin: 4px;
+    border-radius: 8px; 
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    margin: 10px auto;
+    height: auto;
+}
+
+#img-caption {
+    margin: 15px 0 10px 0;
+    display: block;
+    font-size: 1.0rem
+}
+
+/* Discription Section  */
+
+#head-title {
+    margin: 39px 0;
+    text-align: center;
+    font-size: 1.7rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: #454545;
+}
+
+
+#headline {
+    display: block;
+    font-size: 1.4rem;
+    font-weight: bold;
+    margin: 0;
+    color: #606060;
+}
+
+#tribute-info {
+    margin: 47px auto;
+    border: 2px solid;
+    border-radius: 10px;
+    max-width: 1000px;
+}
+
+#container {
+    margin: 20px;
+}
+
+#container:hover>h4 {
+    color: #454545;
+}
+
+ul {
+    display: block;
+    max-width: 800px;
+    margin: 0 auto 30px auto;
+    text-align: left;
+    line-height: 1.6;
+    padding: 10px;
+}
+
+li {
+    margin: 12px auto;
+    display: list-item;
+    font-size: 16px;
+}
+
+/* Ouotation section  */
+
+#quotation>p {
+    font-size: 16px;
+    font-style: italic;
+    text-align: left;
+    max-width: 1171px;
+    line-height: 1.6;
+}
+
+#quote {
+    margin: 50px auto 10px auto;
+    color: #454545;
+}
+
+#quoteby {
+    margin: 13px auto 10px auto;
+}
+
+/* Footer  */
+
+#reference {
+    font-size: 1.1rem;
+    padding-top: 40px;
+}
+
+a {
+    cursor: pointer;
+}
+
+a:visited {
+    color: #74638f;
+}
+
+
+
+
+
